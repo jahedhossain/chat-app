@@ -8,12 +8,12 @@
 
 import React from 'react';
 import {SafeAreaView, ScrollView} from 'react-native';
-import Main from './src/index';
+import WrapperPage from './src/wrapperPage';
 const App = () => {
   return (
     <SafeAreaView>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-       <Main/>
+       <WrapperPage/>
       </ScrollView>
     </SafeAreaView>
   );
