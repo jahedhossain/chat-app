@@ -6,7 +6,7 @@ export default function WrapperPage() {
   return (
     <>
       <View style={Wrapper.container}>
-        <Text>Chats</Text>
+        <Text style={Wrapper?.fontText}>Chats</Text>
         <Icon name="search1" size={20} color="#000" />
       </View>
     </>
@@ -19,6 +19,10 @@ const Wrapper = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 15
+    padding: 15,
   },
+  fontText: {
+    color: 'red',
+    fontFamily: 'Allison'
+  }
 });
